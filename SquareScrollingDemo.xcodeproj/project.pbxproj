@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A72BCDF23124A11002B8985 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72BCDE23124A11002B8985 /* Model.swift */; };
 		0AE5EC74230E8DF300639812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC73230E8DF300639812 /* AppDelegate.swift */; };
 		0AE5EC76230E8DF300639812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC75230E8DF300639812 /* ViewController.swift */; };
 		0AE5EC79230E8DF300639812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5EC77230E8DF300639812 /* Main.storyboard */; };
 		0AE5EC7B230E8DF400639812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5EC7A230E8DF400639812 /* Assets.xcassets */; };
 		0AE5EC7E230E8DF400639812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5EC7C230E8DF400639812 /* LaunchScreen.storyboard */; };
+		0AE5EC88230EC79100639812 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC87230EC79100639812 /* MainViewController.swift */; };
+		0AE5EC8A230EC82C00639812 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC89230EC82C00639812 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A72BCDE23124A11002B8985 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0AE5EC70230E8DF300639812 /* SquareScrollingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareScrollingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE5EC73230E8DF300639812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AE5EC75230E8DF300639812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		0AE5EC7A230E8DF400639812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE5EC7D230E8DF400639812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE5EC7F230E8DF400639812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE5EC87230EC79100639812 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0AE5EC89230EC82C00639812 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				0AE5EC73230E8DF300639812 /* AppDelegate.swift */,
-				0AE5EC75230E8DF300639812 /* ViewController.swift */,
+				0A72BCDE23124A11002B8985 /* Model.swift */,
+				0AE5EC8B230ECD6B00639812 /* 不要管這個 */,
 				0AE5EC77230E8DF300639812 /* Main.storyboard */,
+				0AE5EC87230EC79100639812 /* MainViewController.swift */,
+				0AE5EC89230EC82C00639812 /* Cell.swift */,
 				0AE5EC7A230E8DF400639812 /* Assets.xcassets */,
 				0AE5EC7C230E8DF400639812 /* LaunchScreen.storyboard */,
 				0AE5EC7F230E8DF400639812 /* Info.plist */,
 			);
 			path = SquareScrollingDemo;
+			sourceTree = "<group>";
+		};
+		0AE5EC8B230ECD6B00639812 /* 不要管這個 */ = {
+			isa = PBXGroup;
+			children = (
+				0AE5EC75230E8DF300639812 /* ViewController.swift */,
+			);
+			path = "不要管這個";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A72BCDF23124A11002B8985 /* Model.swift in Sources */,
+				0AE5EC88230EC79100639812 /* MainViewController.swift in Sources */,
+				0AE5EC8A230EC82C00639812 /* Cell.swift in Sources */,
 				0AE5EC76230E8DF300639812 /* ViewController.swift in Sources */,
 				0AE5EC74230E8DF300639812 /* AppDelegate.swift in Sources */,
 			);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5DC959231396E4002B5F8D /* StackAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DC958231396E4002B5F8D /* StackAnimateViewController.swift */; };
 		0A72BCDF23124A11002B8985 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72BCDE23124A11002B8985 /* Model.swift */; };
 		0AE5EC74230E8DF300639812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC73230E8DF300639812 /* AppDelegate.swift */; };
 		0AE5EC76230E8DF300639812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5EC75230E8DF300639812 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5DC958231396E4002B5F8D /* StackAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAnimateViewController.swift; sourceTree = "<group>"; };
 		0A72BCDE23124A11002B8985 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0AE5EC70230E8DF300639812 /* SquareScrollingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareScrollingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE5EC73230E8DF300639812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5DC95723139644002B5F8D /* UseConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				0AE5EC87230EC79100639812 /* MainViewController.swift */,
+				0AE5EC89230EC82C00639812 /* Cell.swift */,
+			);
+			path = UseConstraint;
+			sourceTree = "<group>";
+		};
+		0A5DC95A23139A36002B5F8D /* UseStackView */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DC958231396E4002B5F8D /* StackAnimateViewController.swift */,
+			);
+			path = UseStackView;
+			sourceTree = "<group>";
+		};
 		0AE5EC67230E8DF300639812 = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +83,9 @@
 				0A72BCDE23124A11002B8985 /* Model.swift */,
 				0AE5EC8B230ECD6B00639812 /* 不要管這個 */,
 				0AE5EC77230E8DF300639812 /* Main.storyboard */,
-				0AE5EC87230EC79100639812 /* MainViewController.swift */,
-				0AE5EC89230EC82C00639812 /* Cell.swift */,
+				0A5DC95723139644002B5F8D /* UseConstraint */,
 				0AE5EC7A230E8DF400639812 /* Assets.xcassets */,
+				0A5DC95A23139A36002B5F8D /* UseStackView */,
 				0AE5EC7C230E8DF400639812 /* LaunchScreen.storyboard */,
 				0AE5EC7F230E8DF400639812 /* Info.plist */,
 			);
@@ -156,6 +175,7 @@
 				0AE5EC88230EC79100639812 /* MainViewController.swift in Sources */,
 				0AE5EC8A230EC82C00639812 /* Cell.swift in Sources */,
 				0AE5EC76230E8DF300639812 /* ViewController.swift in Sources */,
+				0A5DC959231396E4002B5F8D /* StackAnimateViewController.swift in Sources */,
 				0AE5EC74230E8DF300639812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
